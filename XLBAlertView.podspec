@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XLBAlertView'
   s.version          = '0.1.0'
-  s.summary          = '将展示的View作为外部设置，进行展示，没有具体的alterView的搭建，具体展示可以使用SXAlertView.'
+  s.summary          = '将展示的View作为外部设置，进行展示'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-多处借鉴SXAlertView，只是为了以后使用方便，把SXAlertView也集成到这个里边了
+多处借鉴SXAlertView，只是为了以后使用方便，把SXAlertView也集成到这个里边了,没有具体的alterView的搭建，具体展示可以使用SXAlertView.
                        DESC
 
   s.homepage         = 'https://github.com/crazyLuobo/XLBAlertView'
