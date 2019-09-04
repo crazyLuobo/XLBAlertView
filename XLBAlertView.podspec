@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+多处借鉴SXAlertView，只是为了以后使用方便，把SXAlertView也集成到这个里边了
                        DESC
 
   s.homepage         = 'https://github.com/crazyLuobo/XLBAlertView'
