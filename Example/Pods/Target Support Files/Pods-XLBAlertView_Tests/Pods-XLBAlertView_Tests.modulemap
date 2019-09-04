@@ -1,0 +1,6 @@
+framework module Pods_XLBAlertView_Tests {
+  umbrella header "Pods-XLBAlertView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

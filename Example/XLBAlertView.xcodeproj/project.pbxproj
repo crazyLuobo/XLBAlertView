@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15753DE3231F8A820056C424 /* XLBAlertImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15753DDF231F8A820056C424 /* XLBAlertImageView.m */; };
+		15753DE4231F8A820056C424 /* XLBAlertViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 15753DE0231F8A820056C424 /* XLBAlertViewFactory.m */; };
+		15753DE5231F8A820056C424 /* XLBCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15753DE1231F8A820056C424 /* XLBCustomAlertView.m */; };
+		15753DE7231F8E2D0056C424 /* showImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 15753DE6231F8E2D0056C424 /* showImage.png */; };
 		55BE458AC7297134EE1F618B /* Pods_XLBAlertView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB58DF03B7BBE855EBC24568 /* Pods_XLBAlertView_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,8 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4360BBADB96682258E7736E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		578DA3103780CA090F032040 /* XLBAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XLBAlertView.podspec; path = ../XLBAlertView.podspec; sourceTree = "<group>"; };
+		15753DDD231F8A820056C424 /* XLBAlertViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBAlertViewFactory.h; sourceTree = "<group>"; };
+		15753DDE231F8A820056C424 /* XLBAlertImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBAlertImageView.h; sourceTree = "<group>"; };
+		15753DDF231F8A820056C424 /* XLBAlertImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBAlertImageView.m; sourceTree = "<group>"; };
+		15753DE0231F8A820056C424 /* XLBAlertViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBAlertViewFactory.m; sourceTree = "<group>"; };
+		15753DE1231F8A820056C424 /* XLBCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBCustomAlertView.m; sourceTree = "<group>"; };
+		15753DE2231F8A820056C424 /* XLBCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBCustomAlertView.h; sourceTree = "<group>"; };
+		15753DE6231F8E2D0056C424 /* showImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showImage.png; sourceTree = "<group>"; };
+		4360BBADB96682258E7736E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		578DA3103780CA090F032040 /* XLBAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XLBAlertView.podspec; path = ../XLBAlertView.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XLBAlertView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLBAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +72,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D210DA1412136CBC3001E12 /* Pods_XLBAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLBAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A829F93B36109DA65CDDADC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9A829F93B36109DA65CDDADC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BB58DF03B7BBE855EBC24568 /* Pods_XLBAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLBAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABAE40A11DE37F14D3CA560 /* Pods-XLBAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLBAlertView_Example.debug.xcconfig"; path = "Target Support Files/Pods-XLBAlertView_Example/Pods-XLBAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E61178DB19C5BC154F440013 /* Pods-XLBAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLBAlertView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XLBAlertView_Tests/Pods-XLBAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,8 +148,15 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* XLBViewController.h */,
 				6003F5A6195388D20070C39A /* XLBViewController.m */,
+				15753DDE231F8A820056C424 /* XLBAlertImageView.h */,
+				15753DDF231F8A820056C424 /* XLBAlertImageView.m */,
+				15753DDD231F8A820056C424 /* XLBAlertViewFactory.h */,
+				15753DE0231F8A820056C424 /* XLBAlertViewFactory.m */,
+				15753DE2231F8A820056C424 /* XLBCustomAlertView.h */,
+				15753DE1231F8A820056C424 /* XLBCustomAlertView.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				15753DE6231F8E2D0056C424 /* showImage.png */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for XLBAlertView";
@@ -193,7 +211,6 @@
 				E61178DB19C5BC154F440013 /* Pods-XLBAlertView_Tests.debug.xcconfig */,
 				EDDD00829D1492EEEDB21760 /* Pods-XLBAlertView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +266,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "yanwenbo_78201@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = DTWZL8Q5NX;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +279,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -279,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				15753DE7231F8E2D0056C424 /* showImage.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -385,6 +407,9 @@
 			files = (
 				6003F59E195388D20070C39A /* XLBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XLBViewController.m in Sources */,
+				15753DE3231F8A820056C424 /* XLBAlertImageView.m in Sources */,
+				15753DE5231F8A820056C424 /* XLBCustomAlertView.m in Sources */,
+				15753DE4231F8A820056C424 /* XLBAlertViewFactory.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,11 +538,12 @@
 			baseConfigurationReference = CABAE40A11DE37F14D3CA560 /* Pods-XLBAlertView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DTWZL8Q5NX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XLBAlertView/XLBAlertView-Prefix.pch";
 				INFOPLIST_FILE = "XLBAlertView/XLBAlertView-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoluobo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -529,11 +555,12 @@
 			baseConfigurationReference = F07027616B8F92DDBD649009 /* Pods-XLBAlertView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DTWZL8Q5NX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XLBAlertView/XLBAlertView-Prefix.pch";
 				INFOPLIST_FILE = "XLBAlertView/XLBAlertView-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoluobo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

@@ -1,0 +1,6 @@
+framework module XLBAlertView {
+  umbrella header "XLBAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XLBAlertView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XLBAlertView.'
+  s.summary          = '将展示的View作为外部设置，进行展示，没有具体的alterView的搭建，具体展示可以使用SXAlertView.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yanwenbo_78201@163.com/XLBAlertView'
+  s.homepage         = 'https://github.com/crazyLuobo/XLBAlertView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yanwenbo_78201@163.com' => 'yanwenbo_78201@163.com' }
-  s.source           = { :git => 'https://github.com/yanwenbo_78201@163.com/XLBAlertView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/crazyLuobo/XLBAlertView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
